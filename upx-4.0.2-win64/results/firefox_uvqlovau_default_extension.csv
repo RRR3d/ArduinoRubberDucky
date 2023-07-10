@@ -1,0 +1,9 @@
+﻿Name,Description,Version,HomepageURL
+Application Update Service Helper,Sets value(s) in the update url based on custom checks.,2.0,
+Pocket,"When you find something you want to view later, put it in Pocket.",1.0.5,
+Web Compat,Urgent post-release fixes for web compatibility.,1.0,
+Multi-process staged rollout,Staged rollout of Firefox multi-process feature.,1.10,
+Default,The default theme.,52.6.0,
+Tamper Data,View and modify HTTP/HTTPS headers etc.,11.0.1.1-signed.1-signed,http://tamperdata.mozdev.org
+Hackbar Modified By FabiHaXor,"Credits to Johan Adriaans & Pedro Laguna (The coder's of the original Hackbar) also t.pro, Shariq Malik & Renegade18 for further modifications.",v1.0,www.facebook.com/rj.sheesh
+NoRedirect,"Lets the user take control of HTTP redirects; can be used to interdict an ISP's DNS search redirection hijacks, screen ""shortened"" URLs (e.g., TinyURL), stop the annoying redirection of ""smart"" error pages, etc.",1.3.2.13.1-signed.1-signed,http://code.kliu.org/noredirect/
