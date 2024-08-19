@@ -1,5 +1,5 @@
 $Username = 'xpharoh1@gmail.com'
-$Password = 'wypuwcjskmqelujk'
+$Password = 'ThiISNOTAREALPASSWORDk'
 $EmailFrom = 'xpharoh1@gmail.com'
 $EmailTo = 'xpharoh@gmail.com'
 $Subject = 'URGENT-MSG'
